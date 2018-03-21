@@ -3,7 +3,7 @@ ConfigurationFiles
 
 configuration files, such as repo (download android source file)、.git-completion.bash(git autocomplete bash)
 
-##使用方法
+##使用方法##
 1. 直接使用的作者提供的~/.vimrc和~/.vimrc.bundles， 直接将两个文件下载下来放到自己Linux系统用户home目录下，然后创建了~/.vim文件夹，执行git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle 命令，解决下边两个问题就配置成功了。
 
 	复制结束后，键入命令vim .vimrc时可能遇到好几条这种样子错误提示：……^M
